@@ -1,3 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+#carouselExampleIndicators img {
+    width: 100%;
+    height: calc(100vh - 56px);
+    object-fit: cover;
+}
+
 .container {
     padding-top: 60px;
     padding-bottom: 30px;
